@@ -1,0 +1,74 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f1da71;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+  font-size: 1.2em !important;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #a09;
+  transition: 0.5s ease;
+}
+
+/* Main Container height*/
+.main-container {
+  height: 100vh;
+  padding-top: 2rem;
+}
+
+/* Aligning items in main row  in center*/
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  width: 70vh;
+  height: 90vh;
+}
+
+/* About Section */
+.about {
+  background: #e7e0a3;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-bottom: 8px solid #ebe8e1;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #eee67b96;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f7cc4dfd;
+  border-radius: 0.5rem;
+}
